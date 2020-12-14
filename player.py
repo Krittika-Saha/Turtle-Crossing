@@ -10,6 +10,8 @@ class Player(Turtle):
     self.shape('turtle')
     self.left(90)
     self.up()
+    self.speed('fastest')
+    self.goto(0,-280)
 
   def move_up(self):
     self.fd(20)
